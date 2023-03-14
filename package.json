@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ftp-upload.js",
+  "scripts": {
+    "test:FTP": "node ./src/ftp-script/test.js",
+    "test:ZIP": "node ./src/zip-script/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@michaelray/console-color": "^2.0.0-d",
+    "archiver": "^5.3.1",
+    "ftp": "^0.3.10"
+  }
+}
